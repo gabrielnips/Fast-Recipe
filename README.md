@@ -3,6 +3,7 @@
 
 Este é um projeto simples desenvolvido com React, TypeScript e Tailwind CSS para buscar receitas de comida aleatórias usando a API do Spoonacular.
 Você pode ver o projeto em tempo real [Aqui](https://fastrecipe.gabrielnips.cloud).
+[UX/Design Feito no Figma.](https://www.figma.com/community/file/1305012275093982311/random-recipe-website-design)
 
 ## Como Usar
 
