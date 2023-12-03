@@ -1,13 +1,28 @@
+"use client";
 import React from "react";
+import config from "../config/config";
 
-interface NavBarProps {
-  getRandomRecipe: () => void;
-}
-
-export default function NavBar({ getRandomRecipe }: NavBarProps) {
+export default function NavBar() {
   const handleRedirect = (url: string) => {
     window.location.href = url;
   };
+
+  const getRandomRecipe = async () => {
+    try {
+      const response = await fetch(
+        `https://api.spoonacular.com/recipes/random?apiKey=${config.apiKey}&includeNutrition=true`,
+        { cache: "no-store" }
+      );
+      const data = await response.json();
+      if (data.recipes && data.recipes.length > 0) {
+        localStorage.setItem("recentRecipe", JSON.stringify(data.recipes[0]));
+        console.log("Api is working");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
   return (
     <div className="navBar">
       <div className="bg-lime-50 flex gap-24  justify-between border border-solid p-5 border-lime-200 rounded-xl">
