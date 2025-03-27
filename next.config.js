@@ -1,9 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    remotePatterns: ["spoonacular.com"],
-    formats: ["image/avif", "image/webp"],
-  },
-};
 
-module.exports = nextConfig;
+const nextConfig = {
+   images: { domains: ['spoonacular.com'], formats: ['image/avif', 'image/webp'], },
+}
+
+module.exports = nextConfig
