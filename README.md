@@ -39,5 +39,5 @@ Confira o design do projeto no [Figma](https://www.figma.com/community/file/1305
 - Tailwind CSS
 
 ## Foto Do Projeto
-![Logo](https://raw.githubusercontent.com/gabrielnips/Fast-Recipe/main/screenshot.png)
+![Logo](https://raw.githubusercontent.com/gabrielnips/Fast-Recipe/refs/heads/main/screenshot.png)
 
