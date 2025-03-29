@@ -1,5 +1,5 @@
 
-![Logo](https://media.discordapp.net/attachments/988546085410721882/1172717821915045938/image.png)
+![Logo](https://media.discordapp.net/attachments/988546085410721882/1172717821915045938/image.png?ex=67e8a614&is=67e75494&hm=1447d2207d34394a176276b91b0e26ec7da716ed6433e575589c5f57029be717&=&format=webp&quality=lossless)
 
 Este é um projeto simples desenvolvido com React, TypeScript e Tailwind CSS para buscar receitas de comida aleatórias usando a API do Spoonacular.
 
